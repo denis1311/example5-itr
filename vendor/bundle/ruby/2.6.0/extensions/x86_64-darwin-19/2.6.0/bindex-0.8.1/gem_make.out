@@ -1,0 +1,15 @@
+current directory: /Users/denislysenko/Downloads/example5/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/denislysenko/.rvm/rubies/ruby-2.6.3/bin/ruby -I /Users/denislysenko/.rvm/rubies/ruby-2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20200331-934-yot3x4.rb extconf.rb
+creating Makefile
+
+current directory: /Users/denislysenko/Downloads/example5/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/denislysenko/Downloads/example5/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/denislysenko/Downloads/example5/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 cruby.bundle ./.gem.20200331-934-gqmhdb/skiptrace/internal
